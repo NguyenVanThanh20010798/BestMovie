@@ -1,0 +1,488 @@
+/* Container */
+.main-content {
+    padding-top: 150px;
+}
+
+/* Home Item Album */
+
+.home-item-album__wrap {
+    display: flex;
+}
+
+.home-item-album {
+    flex: 2;
+}
+
+.bread-crumb {
+    font-size: 1.6rem;
+    color: #A39586;
+    background-color: #2A2F3A;
+    padding: 7px 0;
+    width: 80%;
+    position: relative;
+}
+
+.bread-crum__link::after,
+.bread-crum__name-product::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 100%;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-left: 16px solid #2a2f3a;
+    margin-left: -1px;
+    z-index: 2;
+}
+
+.bread-crum__link::before,
+.bread-crum__name-product::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 100%;
+    border: 16px solid transparent;
+    border-left: 16px solid #464e60;
+    margin-left: 1px;
+    z-index: 1;
+}
+
+.bread-crum__link {
+    text-decoration: none;
+    color: #A4A6A1;
+    position: relative;
+    padding: 0 15px 0 25px;
+}
+
+.bread-crum__name-product {
+    padding-left: 25px;
+    color: #A4A6A1;
+}
+
+/* Home content */
+
+.home-item-album__content {
+    margin-top: 12px;
+}
+
+.home-item-album__img {
+    background-image: url(../Image/Film/Marvel/poster.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.home-item-album__title {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.home-item-album__description {
+    background-color: #2A2F3A;
+    padding: 16px 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.home-item-album__description-content {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #8D979D;
+}
+
+
+/* Home movie */
+
+.home-movie__wrap {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-top: 50px;
+}
+
+.home-movie__item {
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    margin-top: 16px;
+}
+
+.home-movie__item:hover .home-movie__item-img-wrap::before {
+    bottom: 0;
+}
+
+.home-movie__item:hover .home-movie__item-img {
+    transform: translateY(-50px);
+    filter: blur(2px);
+}
+
+.home-movie__item:hover .home-movie__item-detail {
+    bottom: 0px;
+    width: 100%;
+}
+
+.home-movie__item-img-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-movie__item-img-wrap::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #c1d19c 50%, transparent);
+    bottom: -100px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.home-movie__item-img {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    height: 348px;
+}
+
+.home-movie__item-detail {
+    position: absolute;
+    bottom: -127px;
+    left: 0;
+    padding: 20px;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.home-movie-item__name {
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0;
+    color: white;
+}
+
+.home-movie-item__director {
+    font-size: 1.4rem;
+    margin: 5px 0 0 0;
+    color: white;
+}
+
+.home-movie-item__rating {
+    margin-top: 5px;
+    position: relative;
+}
+
+.home-movie-item__rating-icon {
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+.home-movie-item__rating-label {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.home-movie-item__button {
+    margin-top: 10px;
+    display: flex;
+}
+
+.home-movie-item__btn-watch-later {
+    border: none;
+    outline: none;
+    background-color: #03a8f5;
+    padding: 10px 13px;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.home-movie-item__btn-watch-later:hover {
+    background-color: #006695;
+}
+
+.home-movie-item__btn-watch-wrap {
+    background-color: #F0AD4E;
+    padding: 11px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home-movie-item__btn-watch {
+    text-decoration: none;
+    padding: 10px 13px;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F0AD4E;
+}
+
+.home-movie-item__btn-watch:hover {
+    background-color: #b06700;
+}
+
+.home-movie-item__cast {
+    position: relative;
+}
+
+.home-movie-item__cast-label {
+    font-size: 1.6rem;
+    color: white;   
+    margin: 10px 0 0 0;
+}
+
+.home-movie-item__cast-list {
+    list-style: none;
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.home-movie-item__cast-item {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 5px;
+}
+
+.home-movie-item__cast-item-img {
+    max-width: 100%;
+}
+
+/* Home list */
+
+.home-item-album__list {
+    margin-top: 80px;
+}
+
+.home-item-album__item {
+    margin-bottom: 40px;
+}
+
+.home-item-album__item-title {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: #ff4a4a;
+}
+
+.home-item-album__item-info {
+    margin-top: 15px;
+    background-color: #393E49;
+    padding: 20px 24px;
+    border-left: 2px solid #FFB850;
+}
+
+.home-item-album__item-info-name {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #A1A1A2;
+}
+
+.home-item-album__item-info-link {
+    text-decoration: none;
+    color: #ff4a4a;
+}
+
+.home-item-album__item-des {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-item-album__item-des-content {
+    font-size: 1.8rem;
+    color: #A1A1A2;
+    margin: 0;
+}
+
+.home-item-album__item-img {
+    width: 100%;
+}
+
+/* Bảng xếp hạng */
+
+.home-charts__wrap {
+    margin-left: 30px;
+    flex: 0.6;
+}
+
+.home-charts,
+.home-trailer {
+    padding: 20px 10px;
+    background-color: #2A2F3A;
+    border-radius: 10px;
+}
+
+.home-charts__label-title,
+.home-trailer__label-title {
+    color: #FFB850;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.home-charts__movie-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.home-charts__movie-item {
+    margin-top: 20px;
+}
+
+.home-charts__movie-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.home-charts__movie-ordinal {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #3187CF;
+}
+
+.home-charts__movie-img {
+    width: 30%;
+}
+
+.home-charts__movie-content {
+    margin-left: 10px;
+}
+
+.home-charts__movie-name {
+    font-size: 1.8rem;
+    color: white;
+    margin: 0;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 134px;
+}
+
+.home-charts__movie-episode {
+    font-size: 1.2rem;
+    color: rgb(204, 204, 204);
+}
+
+/* Phim sắp chiếu */
+
+.home-trailer__wrap {
+    margin-top: 30px;
+}
+
+.home-trailer__movie {
+    margin-top: 20px;
+}
+
+.home-trailer__movie-list {
+    list-style: none;
+    padding: 0 10px 0 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.home-trailer__movie-item {
+    margin-top: 10px;
+}
+
+/* Pagination */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+}
+.pagination-item{
+    margin: 0 5px;
+}
+.pagination-item__link {
+    height: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    min-width: 29px;
+    line-height: 30px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.pagination-item--active .pagination-item__link{
+    background-color: #ffb850;
+} 
+
+.pagination-item__link:hover {
+    background-color: #ffb850;
+}
+
+/* Home Album */
+
+.home-album__wrap {
+    display: flex;
+    margin-top: 50px;
+}
+
+.home-album {
+    flex: 2;
+}
+
+.home-album__item {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid #333333;
+    text-decoration: none;
+}
+
+.home-album__item:hover {
+    background-color: #333333;
+}
+
+.home-album__item-img {
+    width: 25%;
+    margin-right: 12px;
+}
+
+.home-album__item-content-title {
+    margin: 0;
+    font-size: 2rem;
+    color: #ff4a4a;
+}
+
+.home-album__item-content-des {
+    font-size: 1.5rem;
+    color: #ffffdb;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}

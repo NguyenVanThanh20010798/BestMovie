@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="./Assets/Css/trangChu.css">
+    <link rel="stylesheet" href="./Assets/Css/taiKhoan.css">
+    <link rel="stylesheet" href="./Assets/Css/Slider.css">
+    <link rel="stylesheet" href="./Assets//Css/Base.css">
+    <link rel="stylesheet" href="./Assets/Css/Toast.css">
+    <link rel="stylesheet" href="./Assets/Css/Header.css">
+    <link rel="stylesheet" href="./Assets/Css/Footer.css">
+    <link rel="stylesheet" href="./Assets/Css/Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Front/fontawesome-6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./Assets/Js/Chung.js"></script>
+    <script src="./Assets/Js/trangChu.js"></script>
+    <script src="./Assets/Js/Toast.js"></script>
+    <script src="./Assets/Data/Product.js"></script>
+</head>
+
+<body>
+    
+    <div class="main">
+
+        <!-- Header navigation -->
+        <header class="header">
+            <script>
+                addHeader();
+            </script>
+        </header>
+
+        <div class="video-introduce__wrap">
+            <div class="video">
+                <video src="./Assets/Video/background.mp4" class="video-introduce" muted autoplay loop></video>
+            </div>
+            <div class="introduce-wrap">
+                <div class="introduce-content__wrap">
+                    <h3 class="introduce-content">Giá trị trong từng thước phim</h3>
+                    <h1 class="introduce-content-main">BestMovie, Website đem lại sự trải nghiệm tốt nhất đến người dùng
+                    </h1>
+                </div>
+                <div class="grid">
+                    <div class="introduce-banner">
+                        <div class="introduce-banner__section">
+                            <div class="banner-section__card-list">
+                                <div class="banner-section__card-item">
+                                    <div class="banner-section__card-logo">
+                                        <i class="banner-section__card-logo-icon fa-brands fa-square-youtube"></i>
+                                    </div>
+                                    <div class="banner-section__card-label">
+                                        <h2 class="banner-section__card-title">
+                                            Trang Web thế hệ mới
+                                        </h2>
+                                        <p class="banner-section__card-des">
+                                            Trải nghiệm trang web với thiết kế hoàn toàn mới
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="banner-section__card-item">
+                                    <div class="banner-section__card-logo">
+                                        <i class="banner-section__card-logo-icon fa-solid fa-gauge-high"></i>
+                                    </div>
+                                    <div class="banner-section__card-label">
+                                        <h2 class="banner-section__card-title">
+                                            Tính năng vượt trội
+                                        </h2>
+                                        <p class="banner-section__card-des">
+                                            Trang web vận hành ổn định mượt mà, thỏa sức trải nghiệm
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="banner-section__card-item">
+                                    <div class="banner-section__card-logo">
+                                        <i class="banner-section__card-logo-icon fa-solid fa-forward"></i>
+                                    </div>
+                                    <div class="banner-section__card-label">
+                                        <h2 class="banner-section__card-title">
+                                            Đỉnh cao của sự trải nghiệm
+                                        </h2>
+                                        <p class="banner-section__card-des">
+                                            Tốc độ Load phim đạt tốc độ cao nhất, không giật lag
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="grid">
+                <div class="grid__row main-content">
+                    <div class="product-slider">
+                        <div class="slider-heading">
+                            <h3 class="slider-heading__label">
+                                Phim nổi bật
+                            </h3>
+                        </div>
+
+                        <script>
+                            addProductSlider();
+                        </script>
+                    </div>
+                </div>
+                <div class="home-movie">
+                    <div class="home-movie__label">
+                        <div class="home-movie__label-main">
+                            <a href="" class="home-movie__label-category">
+                                Phim Chiếu Rạp
+                            </a>
+                            <div class="home-movie__label-more">
+                                <a href="" class="home-movie__label-more-link">2019</a>
+                                <a href="" class="home-movie__label-more-link">2020</a>
+                                <a href="" class="home-movie__label-more-link">2021</a>
+                                <a href="" class="home-movie__label-more-link">2022</a>
+                            </div>
+                        </div>
+                        <div class="home-movie__label-view-all">
+                            <a href="" class="home-movie__label-view-all-link">
+                                Xem tất cả
+                                <i class="fa-sharp fa-solid fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-movie__wrap">
+                    </div>
+                </div>
+                <div class="home-movie">
+                    <div class="home-movie__label">
+                        <a href="" class="home-movie__label-category">
+                            Phim Việt Nam
+                        </a>
+                    </div>
+                    <div class="home-movie__wrap">
+                    </div>
+                </div>
+                <div class="home-movie">
+                    <div class="home-movie__label">
+                        <div class="home-movie__label-main">
+                            <a href="" class="home-movie__label-category">
+                                Phim Lẻ
+                            </a>
+                            <div class="home-movie__label-more">
+                                <a href="" class="home-movie__label-more-link">Hàn Quốc</a>
+                                <a href="" class="home-movie__label-more-link">Trung Quốc</a>
+                                <a href="" class="home-movie__label-more-link">Nhật Bản</a>
+                                <a href="" class="home-movie__label-more-link">Âu - Mỹ</a>
+                            </div>
+                        </div>
+                        <div class="home-movie__label-view-all">
+                            <a href="" class="home-movie__label-view-all-link">
+                                Xem tất cả
+                                <i class="fa-sharp fa-solid fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-movie__wrap">
+                    </div>
+                </div>
+                <div class="home-movie">
+                    <div class="home-movie__label">
+                        <div class="home-movie__label-main">
+                            <a href="" class="home-movie__label-category">
+                                Phim Bộ
+                            </a>
+                            <div class="home-movie__label-more">
+                                <a href="" class="home-movie__label-more-link">Hàn Quốc</a>
+                                <a href="" class="home-movie__label-more-link">Trung Quốc</a>
+                                <a href="" class="home-movie__label-more-link">Nhật Bản</a>
+                                <a href="" class="home-movie__label-more-link">Âu - Mỹ</a>
+                            </div>
+                        </div>
+                        <div class="home-movie__label-view-all">
+                            <a href="" class="home-movie__label-view-all-link">
+                                Xem tất cả
+                                <i class="fa-sharp fa-solid fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-movie__wrap">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <script>
+                addFooter();
+            </script>
+        </div>
+    </div>
+    </div>
+    <script>
+        addLoader();
+    </script>
+    <script>
+        addContainTaiKhoan();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Assets/Js/Slider.js"></script>
+    <div id="toast"></div>
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

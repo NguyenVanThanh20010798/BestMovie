@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <link rel="stylesheet" href="./Assets/Css/Album.css">
+    <link rel="stylesheet" href="./Assets/Css/taiKhoan.css">
+    <link rel="stylesheet" href="./Assets//Css/Base.css">
+    <link rel="stylesheet" href="./Assets/Css/Toast.css">
+    <link rel="stylesheet" href="./Assets/Css/Header.css">
+    <link rel="stylesheet" href="./Assets/Css/Footer.css">
+    <link rel="stylesheet" href="./Assets/Css/Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Front/fontawesome-6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./Assets/Js/Album.js"></script>
+    <script src="./Assets/Js/Chung.js"></script>
+    <script src="./Assets/Js/Toast.js"></script>
+    <script src="./Assets/Data/Product.js"></script>
+</head>
+<body>
+    <div class="main">
+        <!-- Header navigation -->
+        <header class="header">
+            <script>
+                addHeader();
+            </script>
+        </header>
+        
+        <!-- Main container -->
+        <div class="main-container">
+            <div class="grid">
+                <div class="grid__row main-content">
+                    <div class="product-slider">
+                        <div class="slider-heading">
+                            <h3 class="slider-heading__label">
+                                Album nổi bật
+                            </h3>
+                        </div>
+
+                        <script>
+                            addProductSlider();
+                        </script>
+                    </div>
+
+                    <!-- Main album -->
+                    <div class="home-album__wrap">
+                        <div class="home-album">
+                            <div class="home-album__list">
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/Marvel/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Marvel, danh sách phim vũ trụ điện ảnh Marvel (MCU)
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Các phim điện ảnh của Vũ trụ Điện ảnh Marvel (tránh nhầm với Các phim truyền hình của Vũ trụ Điện ảnh Marvel) 
+                                            là một loạt các tác phẩm siêu anh hùng chiếu trên màn ảnh rộng, dựa trên các nhân vật từ truyện tranh Marvel.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/tham-nhung/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Tham Nhũng - The Mechanism
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Một vụ bê bối nổ ra ở Brazil trong cuộc điều tra về cáo buộc tham nhũng của chính phủ liên quan tới các công ty dầu khí và xây dựng. 
+                                            Phim lấy cảm hứng từ một sự kiện có thật!
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/sieu-nhan/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Hành Tinh Siêu Nhân - Krypton
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Phim Hành Tinh Siêu Nhân - Krypton 2018: lấy bối cảnh quê hương của Superman - hành tinh Krypton trước khi bị phá hủy. 
+                                            Nhân vật chính của phim là ông nội của Superman - Seg-El, 
+                                            người đàn ông đã phải chiến đấu để chuộc lại danh dự của gia đình và cứu vớt thế giới khỏi sự hỗn loạn.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/phu-thuy/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Phù Thủy Xui Xẻo - The Worst Witch
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Sau khi một cây chổi rơi xuống ban công, 
+                                            Mildred Hubble bay ké một cô bé đến học viện Cackle và bắt đầu tham gia vào khóa học phù thủy mới.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/mat-ma/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Mật Mã Quốc Gia - The Code
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Điều tra một vụ tai nạn xe hơi chết người, 
+                                            một nhà báo và người em trai hacker tình cờ tiến vào một âm mưu liên quan đến cao tầng của chính phủ.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="chiTietItemAlbum.html" class="home-album__item">
+                                    <img src="./Assets/Image/Film/ca-kiem/poster.jpg" alt="" class="home-album__item-img">
+                                    <div class="home-album__item-content">
+                                        <h5 class="home-album__item-content-title">
+                                            Series Phim Mật Mã Cá Kiếm - Swordfish
+                                        </h5>
+                                        <p class="home-album__item-content-des">
+                                            Gabriel Shear quyết tâm lấy được số tiền 9 tỉ đô la được cất dấu trong một tài khoản bí mật của chính phủ. 
+                                            Anh ta muốn có được số tiền mặt đó để dùng vào việc đấu tranh chống lại chủ nghĩa khủng bố.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="pagination home-product__pagination">
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fa-solid fa-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a href="" class="pagination-item__link">1</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">2</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">3</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">4</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">5</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">...</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">14</a>                                </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fa-solid fa-angle-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-charts__wrap">
+                            <script>
+                                addCharts();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <script>
+                addFooter();
+            </script>
+        </div>
+    </div>
+    <script>
+        addLoader();
+    </script>
+    <script>
+        addContainTaiKhoan();
+    </script>
+    <div id="toast"></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Assets/Js/Slider.js"></script>
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+</html>

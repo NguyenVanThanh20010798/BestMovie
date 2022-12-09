@@ -1,0 +1,332 @@
+
+@media (max-width: 1200px) {
+    .header-navbar__watch-list::before {
+        content: "";
+        position: absolute;
+        right: 15px;
+        top: -26px;
+        border-width: 16px 20px;
+        border-style: solid;
+        border-color: transparent transparent white transparent;
+        cursor: pointer;
+    }
+    .header-navbar__account {
+        display: none;
+    }
+    .header-category__position-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-category__list {
+        display: block;
+        background-color: #504d49;
+        text-align: center;
+        transition: 0.5s;
+        overflow: hidden;
+        height: 0px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .header-category__list.open {
+        height: auto;
+    }
+
+    .header-category__list-menu {
+        position: relative;
+        transform-origin: top;
+        transition: 0.5s;
+        height: 450px;
+    }
+
+    .header-category__list-item:first-child {
+        display: none;
+    }
+
+    .header-category__list-item {
+        padding: 0;
+        transition: 0.5s;
+    }
+
+    .header-category__list-item-link {
+        display: block;
+    }
+
+    .header-category__list-menu-item {
+        width: 100%;
+    }
+
+    .header-category__list-item:nth-child(9) .header-category__list-menu {
+        position: relative;
+        transform-origin: top;
+    }
+    
+    .filter-select {
+        margin-bottom: 10px;
+        width: 120px;
+    }
+    .home-charts__movie-name {
+        min-width: 400px;
+    }
+
+    .home-album__wrap {
+        display: block;
+    }
+
+    .bread-crumb {
+        width: 50%;
+    }
+
+    .home-item-album__wrap {
+        display: block;
+    }
+
+    .bread-crum__name-product {
+        display: none;
+    }
+
+    .showtimes-wrap {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    .home-movie__wrap {
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+    }
+
+    .home-movie__item-detail {
+        bottom: 0;
+    }
+
+    .home-movie-item__cast {
+        display: none;
+    }
+
+    .home-movie-item__button {
+        display: block;
+        width: 100%;
+    }
+
+    .home-movie-item__btn-watch-later {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .home-movie-item__btn-watch-wrap {
+        width: 100%;
+    }
+    .introduce-wrap {
+        top: 400px;
+    }
+
+    .home-category__wrap {
+        display: block;
+    }
+
+    .home-charts__wrap {
+        margin-left: 5px;
+    }
+    .home-album__wrap {
+        display: block;
+    }
+    .bread-crumb {
+        width: 30%;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 800px){
+    .home-movie__wrap {
+        display: grid;
+        grid-template-columns: repeat(3,33.33333%);
+    }
+    .home-movie__item-detail {
+        bottom: 0;
+    }
+
+    .home-movie-item__cast {
+        display: none;
+    }
+
+    .home-movie-item__button {
+        display: block;
+        width: 100%;
+    }
+
+    .home-movie-item__btn-watch-later {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .home-movie-item__btn-watch-wrap {
+        width: 100%;
+    }
+
+    .introduce-wrap {
+        top: 250px;
+    }
+
+    .banner-section__card-list {
+        display: block;
+    }
+    .banner-section__card-item {
+        margin: 5px 0;
+    }
+    .home-category__wrap {
+        display: block;
+    }
+
+    .home-charts__wrap {
+        margin-left: 5px;
+    }
+    .home-charts__movie-name {
+        min-width: 400px;
+    }
+    .home-album__wrap {
+        display: block;
+    }
+
+    .home-detail-movie__img {
+        display: none;
+    }
+
+    .bread-crumb {
+        width: 31%;
+    }
+
+    .home-detail-movie__content {
+        left: 5px;
+        right: 5px;
+    }
+    .home-detail-movie__info-list {
+        display: block;
+    }
+
+    .home-detail-movie__info-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+    #toast {
+        right: 0;
+    }
+
+    .header-navbar__watch-list::before {
+        content: "";
+        position: absolute;
+        right: 2px;
+        top: -26px;
+        border-width: 16px 20px;
+        border-style: solid;
+        border-color: transparent transparent white transparent;
+        cursor: pointer;
+    }
+
+    .header-navbar__logo {
+        margin: 0;
+        width: 150px;
+    }
+    
+    .header-navbar__watch-later {
+        margin: 0;
+    }
+
+    .home-movie__label-more {
+        display: none;
+    }
+
+    .header-category__position-link {
+        padding: 12px 4px 12px 0;
+    }
+
+    .home-movie__wrap {
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    .introduce-wrap {
+        top: 116px;
+    }
+    .home-movie__item-detail {
+        bottom: 0;
+        width: 100%;
+    }
+
+    .home-movie-item__cast {
+        display: none;
+    }
+
+    .home-movie-item__button {
+        display: block;
+        width: 100%;
+    }
+
+    .home-movie-item__btn-watch-later {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .home-movie-item__btn-watch-wrap {
+        width: 100%;
+    }
+
+    .banner-section__card-list {
+        display: block;
+    }
+    .banner-section__card-item {
+        margin: 5px 0;
+    }
+
+    .footer-one {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .header-category__position-item-separate::after {
+        display: none;
+    }
+
+    .home-category__wrap {
+        display: block;
+    }
+
+    .home-charts__wrap {
+        margin-left: 5px;
+    }
+
+    .filter-select {
+        margin-bottom: 10px;
+        width: 120px;
+    }
+    .home-charts__movie-name {
+        min-width: 235px;
+    }
+    .home-album__wrap {
+        display: block;
+    }
+    .bread-crumb {
+        width: 58%;
+    }
+    .home-detail-movie__img {
+        display: none;
+    }
+    .home-detail-movie__content {
+        left: 5px;
+        right: 5px;
+    }
+    .home-detail-movie__info-list {
+        display: block;
+    }
+
+    .home-detail-movie__info-item {
+        width: 100%;
+    }
+
+    .home-watch-movie__back {
+        height: 300px;
+    }
+}
+

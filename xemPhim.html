@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phù thủy tối thượng</title>
+    <link rel="stylesheet" href="./Assets/Css/xemPhim.css">
+    <link rel="stylesheet" href="./Assets/Css/taiKhoan.css">
+    <link rel="stylesheet" href="./Assets//Css/Base.css">
+    <link rel="stylesheet" href="./Assets/Css/Toast.css">
+    <link rel="stylesheet" href="./Assets/Css/Header.css">
+    <link rel="stylesheet" href="./Assets/Css/Footer.css">
+    <link rel="stylesheet" href="./Assets/Css/Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Front/fontawesome-6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./Assets/Js/xemPhim.js"></script>
+    <script src="./Assets/Js/Chung.js"></script>
+    <script src="./Assets/Js/Toast.js"></script>
+    <script src="./Assets/Data/Product.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- Header navigation -->
+        <header class="header">
+            <script>
+                addHeader();
+            </script>
+        </header>
+
+        <!-- Main container -->
+        <div class="main-container">
+            <div class="grid">
+                <div class="grid__row main-content">
+                    <div class="home-watch-movie__wrap">
+                        <div class="home-watch-movie__back">
+                            <button class="home-watch-movie__icon-play">
+                            </button>
+                            <div class="home-watch-movie__icon-loader"></div>
+                        </div>
+                        <div class="home-watch-movie__server">
+                            <p class="home-watch-movie__server-name">
+                                Đổi server:
+                            </p>
+                            <ul class="home-watch-movie__server-list">
+                                <li class="home-watch-movie__server-item home-watch-movie__server-active">
+                                    <a href="#" class="home-watch-movie__server-link">
+                                        Server 1
+                                    </a>
+                                </li>
+                                <li class="home-watch-movie__server-item">
+                                    <a href="#" class="home-watch-movie__server-link">
+                                        Server 2
+                                    </a>
+                                </li>
+                                <li class="home-watch-movie__server-item">
+                                    <a href="#" class="home-watch-movie__server-link">
+                                        Server 3
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-watch-movie__episode">
+                            <h2 class="home-watch-movie__episode-label">
+                                <i class="fa-solid fa-list"></i>
+                                Danh sách tập
+                            </h2>
+                            <ul class="home-watch-movie__episode-list">
+                                <li class="home-watch-movie__episode-item home-watch-movie__episode-active">
+                                    <a href="#" class="home-watch-movie__episode-link">
+                                        Full
+                                    </a>
+                                </li>
+                                <li class="home-watch-movie__episode-item">
+                                    <a href="#" class="home-watch-movie__episode-link">
+                                        Thuyết minh
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-watch-movie__info">
+                            <h3 class="home-watch-movie__name">Phù thủy tối thượng</h3>
+                            <h2 class="home-watch-movie__name-other">Doctor Strange</h2>
+                            <p class="home-detail-movie__des-content">
+                                <strong>Phù Thủy Tối Thượng </strong>Doctor Strange 2021 Full HD Vietsub Thuyết Minh
+                                Phù thủy tối thượng,
+                                Doctor Strange (2016) Phù thủy tối thượng - Doctor Strange 2016:
+                                chuyên gia phẫu thuật thần kinh. Sau một tai nạn xe hơi khủng khiếp,
+                                Stephen đến Tây Tạng để học cách kiểm soát tiềm năng ma thuật bên trong bản thân và
+                                thế giới xung quanh,
+                                cũng như cách mượn sức mạnh của các vị thần và chúa quỷ. Khi sức mạnh của Stephen
+                                lên đến đỉnh cao,
+                                cái tên Doctor Strange ra đời. Trong truyện tranh, nhân vật này còn được Thần chết
+                                (người tình của Thanos)
+                                ban cho sự sống bất tử. Sau đó bác sĩ Strane trở về Mỹ, dùng sức mạnh của mình để
+                                bảo vệ những người vô tội,
+                                bảo vệ thế giới khỏi thế lực bóng tối. Sự nghiệp siêu anh hùng của anh cũng bắt đầu
+                                từ đây.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-slider">
+                    <div class="slider-heading">
+                        <h3 class="slider-heading__label">
+                            Có thể bạn cũng muốn xem
+                        </h3>
+                    </div>
+
+                    <script>
+                        addProductSlider();
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <script>
+                addFooter();
+            </script>
+        </div>
+    </div>
+    <script>
+        addLoader();
+    </script>
+    <script>
+        addContainTaiKhoan();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Assets/Js/Slider.js"></script>
+    <div id="toast"></div>
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
